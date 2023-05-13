@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog De Cafe</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400;1,700&family=Open+Sans:ital@1&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin
+                    centrar-textp">Blog<span 
+                        class="logo__bold">DeCafe</span></h1>
+                </a>
+                
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Curso</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div><!--Final contenedor-->
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprender de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header><!---Final header-->
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+        <div class="contacto-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input class="campo__field" type="text" placeholder="tu nombre" id="nombre">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="email">Email</label>
+                <input class="campo__field" type="email" placeholder="usuario@usuario.com" id="email">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field campo__field--textarea"  id="mensaje"></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>
+
+    </main> <!--Final Contenido-principal-->
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+
+                    <h1 class="logo__nombre no-margin
+                    centrar-textp">Blog<span 
+                        class="logo__bold">DeCafe</span></h1>
+                </a>
+                
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Curso</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div><!---Final Barra-->
+        </div><!--Final Contenedor-->
+    </footer>
+</body>
+</html>
